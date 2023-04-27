@@ -63,6 +63,22 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
+    <script src="https://giscus.app/client.js"
+        data-repo="sky-born/sky-born.github.io"
+        data-repo-id="R_kgDOJb8PyA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOJb8PyM4CWFbT"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+    </script>
+
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
@@ -93,3 +109,5 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+
